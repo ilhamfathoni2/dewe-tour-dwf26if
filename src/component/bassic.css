@@ -28,3 +28,17 @@ footer {
   bottom: 0 !important;
   z-index: 9999999;
 }
+
+.bg-flex-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-login {
+  width: 100px;
+}
+.bg-login2 {
+  position: relative;
+  border-radius: 0 5px 0 0;
+  width: 80px;
+}
