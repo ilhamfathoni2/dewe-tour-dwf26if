@@ -2,6 +2,7 @@ import { Container, Navbar, Image, Row, Col } from "react-bootstrap";
 import Logo from "../src-assets/Icon.png";
 import "./bassic.css";
 import Login from "./login";
+import Register from "./register";
 
 function NavMain() {
   return (
@@ -18,7 +19,9 @@ function NavMain() {
               <Col>
                 <Login />
               </Col>
-              <Col></Col>
+              <Col>
+                <Register />
+              </Col>
             </Row>
           </Navbar.Collapse>
         </Container>
