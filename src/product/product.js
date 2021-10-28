@@ -1,36 +1,39 @@
 import { Container, Card, Image } from "react-bootstrap";
 import "./product.css";
+import img1 from "../src-assets/img1.jpg";
 
 function Product() {
   return (
     <div className="mt-00">
-      <Container className="d-flex justify-content-between">
-        <Card className="card-strend">
+      <Container className="d-flex flex-wrap justify-content-center">
+        <Card className="card-product">
           <Card.Body>
-            <Image className="icon-hero mb-3" />
-            <h4 className="mb-3">Best Price Guarantee</h4>
-            <p>A small river named Duren flows by their place and supplies</p>
+            <Image className="img-product mb-3" src={img1} />
+            <h4 className="card-title">Amerika ALlllllll</h4>
+            <h5 className="price">
+              <b>IDR. 12.000.000</b>
+            </h5>
+            <h5 className="country">Amerika</h5>
           </Card.Body>
         </Card>
-        <Card className="card-strend">
+        <Card className="card-product">
           <Card.Body>
-            <Image className="icon-hero mb-3" />
-            <h4 className="mb-3">Travellers Love Us</h4>
-            <p>A small river named Duren flows by their place and supplies</p>
+            <Image className="img-product mb-3" src={img1} />
+            <h4 className="card-title">Amerika ALlllllll</h4>
+            <h5 className="price">
+              <b>IDR. 12.000.000</b>
+            </h5>
+            <h5 className="country">Amerika</h5>
           </Card.Body>
         </Card>
-        <Card className="card-strend">
+        <Card className="card-product">
           <Card.Body>
-            <Image className="icon-hero mb-3" />
-            <h4 className="mb-3">Best Travel Agent</h4>
-            <p>A small river named Duren flows by their place and supplies</p>
-          </Card.Body>
-        </Card>
-        <Card className="card-strend">
-          <Card.Body>
-            <Image className="icon-hero mb-3" />
-            <h4 className="mb-3">Our Dedicated Support</h4>
-            <p>A small river named Duren flows by their place and supplies</p>
+            <Image className="img-product mb-3" src={img1} />
+            <h4 className="card-title">Amerika ALlllllll</h4>
+            <h5 className="price">
+              <b>IDR. 12.000.000</b>
+            </h5>
+            <h5 className="country">Amerika</h5>
           </Card.Body>
         </Card>
       </Container>
