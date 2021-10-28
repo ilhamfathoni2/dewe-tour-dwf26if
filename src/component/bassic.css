@@ -1,0 +1,24 @@
+.bg-hero-nav {
+  position: absolute;
+  background-image: url("../src-assets/18pfua2dz5k01.png");
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  filter: brightness(80%);
+  z-index: -999999;
+}
+
+footer {
+  position: fixed;
+  bottom: 0 !important;
+  padding: 13px 0;
+  width: 100%;
+  background: #ffaf00;
+}
+
+.text-footer {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
