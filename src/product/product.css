@@ -2,9 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between !important;
-  margin-top: 30px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 30px 15px 50px 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.075);
   width: 325px;
   padding: 5px;
@@ -21,6 +19,10 @@
   margin-top: 15px;
   font-size: 24px;
   font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 265px;
 }
 
 .price {
