@@ -10,6 +10,9 @@ function HomePage() {
       <NavMain />
       <Hero />
       <CardMain />
+      <h2 className="text-center">
+        <b>Group Tour</b>
+      </h2>
       <Product />
       <Footer />
     </>
