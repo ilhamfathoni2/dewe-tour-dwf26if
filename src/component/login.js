@@ -20,6 +20,9 @@ function Login() {
           <Image className="bg-login" src={imgL1} />
           <Image className="bg-login2" src={imgl2} />
         </div>
+        <h3 className="text-center">
+          <b>Login</b>
+        </h3>
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -33,7 +36,7 @@ function Login() {
             </Form.Group>
             <div className="d-grid gap-2 mt-5">
               <Button variant="warning" size="lg">
-                Register
+                Login
               </Button>
             </div>
           </Form>
