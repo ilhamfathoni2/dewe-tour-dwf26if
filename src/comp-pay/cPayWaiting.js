@@ -2,7 +2,6 @@ import { Container, Image } from "react-bootstrap";
 import "./pay.css";
 import Icon from "../src-assets/IconPay.png";
 import Invoice from "../src-assets/struck.png";
-import Confirm from "./btnConfirm";
 import WaitingApprove from "./waitingApprove";
 
 function PayWaiting() {
