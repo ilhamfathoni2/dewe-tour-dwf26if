@@ -27,6 +27,7 @@ footer {
   position: fixed;
   bottom: 0 !important;
   z-index: 8;
+  width: 100px;
 }
 
 .bg-flex-login {

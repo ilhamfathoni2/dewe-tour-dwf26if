@@ -29,7 +29,7 @@ function PriceDetail() {
           <Button variant="warning" onClick={decrement}>
             <b> - </b>
           </Button>
-          <Form.Control className="qty" type="text" placeholder={count} />
+          <Form.Control className="qty" type="text" value={count} readOnly />
           <Button variant="warning" onClick={increment}>
             <b>+</b>
           </Button>
