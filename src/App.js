@@ -7,6 +7,7 @@ import Detail from "./pages/detail";
 import Pay from "./pages/pay";
 import AfterPay from "./pages/afterPay";
 import Profile from "./pages/profile";
+import IncomTransaction from "./pages/incomTransaction";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/payment" component={Pay} />
           <Route exact path="/status-payment" component={AfterPay} />
           <Route exact path="/profile" component={Profile} />
+          <Route exact path="/incom" component={IncomTransaction} />
         </Switch>
       </BrowserRouter>
     </>
