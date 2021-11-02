@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import HomePage from "./pages/home";
 import Detail from "./pages/detail";
+import Pay from "./pages/pay";
+import AfterPay from "./pages/afterPay";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/detail" component={Detail} />
+          <Route exact path="/payment" component={Pay} />
+          <Route exact path="/status-payment" component={AfterPay} />
         </Switch>
       </BrowserRouter>
     </>
