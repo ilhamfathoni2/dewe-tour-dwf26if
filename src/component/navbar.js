@@ -1,4 +1,5 @@
 import { Container, Navbar, Image, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Logo from "../src-assets/Icon.png";
 import "./bassic.css";
 import Login from "./login";
@@ -11,7 +12,9 @@ function NavMain() {
       <Navbar>
         <Container>
           <Navbar.Brand>
-            <Image src={Logo} />
+            <Link to="/">
+              <Image src={Logo} />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
